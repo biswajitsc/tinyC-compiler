@@ -24,4 +24,6 @@ Run test files
 --------------
 To run all test files provided in test folder,
 
-    ``` ./test.sh ```
+```
+./test.sh
+```
