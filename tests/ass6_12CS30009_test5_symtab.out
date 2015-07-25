@@ -1,0 +1,92 @@
+Table 1: Global
+Name                 Type                 Val                  Size                 Offset               Nested Table         
+printi               func                 null                 0                    0                    1                    
+prints               func                 null                 0                    0                    2                    
+readi                func                 null                 0                    0                    3                    
+sort                 func                 null                 0                    0                    4                    
+main                 func                 null                 0                    0                    5                    
+
+Table 1: printi
+ParamType: int,  RetType: void
+Name                 Type                 Val                  Size                 Offset               Nested Table         
+val                  int                  null                 4                    8                    null                 
+
+Table 2: prints
+ParamType: string,  RetType: void
+Name                 Type                 Val                  Size                 Offset               Nested Table         
+str                  string               null                 4                    8                    null                 
+
+Table 3: readi
+ParamType: ptr(int),  RetType: int
+Name                 Type                 Val                  Size                 Offset               Nested Table         
+ep                   ptr(int)             null                 4                    8                    null                 
+
+Table 4: sort
+ParamType: ptr(int), int,  RetType: void
+Name                 Type                 Val                  Size                 Offset               Nested Table         
+arr                  ptr(int)             null                 4                    8                    null                 
+n                    int                  null                 4                    12                   null                 
+i                    int                  null                 4                    -4                   null                 
+j                    int                  null                 4                    -8                   null                 
+temp                 int                  null                 4                    -12                  null                 
+t1                   int                  0                    4                    -16                  null                 
+t2                   int                  null                 4                    -20                  null                 
+t3                   int                  null                 4                    -24                  null                 
+t4                   int                  0                    4                    -28                  null                 
+t5                   int                  1                    4                    -32                  null                 
+t6                   int                  null                 4                    -36                  null                 
+t7                   int                  null                 4                    -40                  null                 
+t8                   int                  null                 4                    -44                  null                 
+t9                   int                  null                 4                    -48                  null                 
+t10                  int                  null                 4                    -52                  null                 
+t11                  int                  1                    4                    -56                  null                 
+t12                  int                  null                 4                    -60                  null                 
+t13                  int                  null                 4                    -64                  null                 
+t14                  int                  null                 4                    -68                  null                 
+t15                  int                  null                 4                    -72                  null                 
+t16                  int                  null                 4                    -76                  null                 
+t17                  int                  null                 4                    -80                  null                 
+t18                  int                  1                    4                    -84                  null                 
+t19                  int                  null                 4                    -88                  null                 
+t20                  int                  null                 4                    -92                  null                 
+t21                  int                  null                 4                    -96                  null                 
+t22                  int                  1                    4                    -100                 null                 
+t23                  int                  null                 4                    -104                 null                 
+t24                  int                  null                 4                    -108                 null                 
+
+Table 5: main
+ParamType:  RetType: int
+Name                 Type                 Val                  Size                 Offset               Nested Table         
+t25                  int                  20                   4                    -4                   null                 
+arr                  arr(20, int)         null                 80                   -84                  null                 
+i                    int                  null                 4                    -88                  null                 
+n                    int                  null                 4                    -92                  null                 
+ep                   int                  null                 4                    -96                  null                 
+t26                  void                 null                 4                    -100                 null                 
+t27                  ptr(int)             null                 4                    -104                 null                 
+t28                  int                  null                 4                    -108                 null                 
+t29                  void                 null                 4                    -112                 null                 
+t30                  void                 null                 4                    -116                 null                 
+t31                  void                 null                 4                    -120                 null                 
+t32                  void                 null                 4                    -124                 null                 
+t33                  int                  0                    4                    -128                 null                 
+t34                  int                  null                 4                    -132                 null                 
+t35                  int                  null                 4                    -136                 null                 
+t36                  int                  null                 4                    -140                 null                 
+t37                  int                  null                 4                    -144                 null                 
+t38                  ptr(int)             null                 4                    -148                 null                 
+t39                  int                  null                 4                    -152                 null                 
+t40                  ptr(int)             null                 4                    -156                 null                 
+t41                  void                 null                 4                    -160                 null                 
+t42                  void                 null                 4                    -164                 null                 
+t43                  int                  0                    4                    -168                 null                 
+t44                  int                  null                 4                    -172                 null                 
+t45                  int                  null                 4                    -176                 null                 
+t46                  int                  null                 4                    -180                 null                 
+t47                  int                  null                 4                    -184                 null                 
+t48                  int                  null                 4                    -188                 null                 
+t49                  void                 null                 4                    -192                 null                 
+t50                  void                 null                 4                    -196                 null                 
+t51                  void                 null                 4                    -200                 null                 
+t52                  int                  0                    4                    -204                 null                 
+

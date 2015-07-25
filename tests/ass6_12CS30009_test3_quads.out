@@ -1,0 +1,123 @@
+0: LABEL main: 
+1: t1 = 0
+2: a = t1
+3: t2 = 0
+4: i = t2
+5: t3 = 10
+6: IF i < t3 GOTO 11
+7: GOTO 15
+8: t4 = 1
+9: i = i + t4
+10: GOTO 5
+11: t5 = 2
+12: t6 = a + t5
+13: a = t6
+14: GOTO 8
+15: PARAM $.LC0
+16: t7 = CALL prints, 1
+17: PARAM a
+18: t8 = CALL printi, 1
+19: PARAM $.LC1
+20: t9 = CALL prints, 1
+21: t10 = 0
+22: i = t10
+23: t11 = 10
+24: IF i < t11 GOTO 29
+25: GOTO 33
+26: t12 = 1
+27: i = i + t12
+28: GOTO 23
+29: t13 = 2
+30: t14 = a + t13
+31: a = t14
+32: GOTO 26
+33: PARAM $.LC0
+34: t15 = CALL prints, 1
+35: PARAM a
+36: t16 = CALL printi, 1
+37: PARAM $.LC1
+38: t17 = CALL prints, 1
+39: t18 = 0
+40: i = t18
+41: t19 = 10
+42: IF i < t19 GOTO 44
+43: GOTO 48
+44: t21 = 1
+45: t20 = i
+46: i = i + t21
+47: GOTO 41
+48: PARAM $.LC4
+49: t22 = CALL prints, 1
+50: PARAM i
+51: t23 = CALL printi, 1
+52: PARAM $.LC1
+53: t24 = CALL prints, 1
+54: t25 = 0
+55: i = t25
+56: t26 = 10
+57: j = t26
+58: t27 = j - i
+59: IFFALSE t27 GOTO 65
+60: GOTO 61
+61: t28 = 1
+62: t29 = i + t28
+63: i = t29
+64: GOTO 58
+65: PARAM $.LC4
+66: t30 = CALL prints, 1
+67: PARAM i
+68: t31 = CALL printi, 1
+69: PARAM $.LC1
+70: t32 = CALL prints, 1
+71: t33 = 5
+72: a = t33
+73: t34 = 4
+74: b = t34
+75: IF a < b GOTO 77
+76: GOTO 80
+77: t35 = 1
+78: i = t35
+79: GOTO 82
+80: t36 = 0
+81: i = t36
+82: PARAM $.LC4
+83: t37 = CALL prints, 1
+84: PARAM i
+85: t38 = CALL printi, 1
+86: PARAM $.LC1
+87: t39 = CALL prints, 1
+88: t40 = 0
+89: i = t40
+90: t41 = 3
+91: IF i < t41 GOTO 97
+92: GOTO 121
+93: t43 = 1
+94: t42 = i
+95: i = i + t43
+96: GOTO 90
+97: t44 = 0
+98: IF i <= t44 GOTO 100
+99: GOTO 104
+100: t45 = 20
+101: PARAM t45
+102: t46 = CALL printi, 1
+103: GOTO 118
+104: t47 = 1
+105: IF i == t47 GOTO 107
+106: GOTO 111
+107: t48 = 21
+108: PARAM t48
+109: t49 = CALL printi, 1
+110: GOTO 118
+111: t50 = 2
+112: IF i >= t50 GOTO 114
+113: GOTO 118
+114: t51 = 22
+115: PARAM t51
+116: t52 = CALL printi, 1
+117: GOTO 118
+118: PARAM $.LC1
+119: t53 = CALL prints, 1
+120: GOTO 93
+121: t54 = 0
+122: RETURN t54

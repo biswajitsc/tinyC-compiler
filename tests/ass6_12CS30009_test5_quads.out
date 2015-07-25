@@ -1,0 +1,108 @@
+0: LABEL sort: 
+1: t1 = 0
+2: i = t1
+3: IF i < n GOTO 9
+4: GOTO 49
+5: t3 = 1
+6: t2 = i
+7: i = i + t3
+8: GOTO 3
+9: t4 = 0
+10: j = t4
+11: t5 = 1
+12: t6 = n - t5
+13: IF j < t6 GOTO 19
+14: GOTO 5
+15: t8 = 1
+16: t7 = j
+17: j = j + t8
+18: GOTO 11
+19: t9 = j
+20: t9 = t9 * 4
+21: t10 = arr[t9]
+22: t11 = 1
+23: t12 = j + t11
+24: t13 = t12
+25: t13 = t13 * 4
+26: t14 = arr[t13]
+27: IF t10 > t14 GOTO 29
+28: GOTO 15
+29: t15 = j
+30: t15 = t15 * 4
+31: t16 = arr[t15]
+32: temp = t16
+33: t17 = j
+34: t17 = t17 * 4
+35: t18 = 1
+36: t19 = j + t18
+37: t20 = t19
+38: t20 = t20 * 4
+39: t21 = arr[t20]
+40: arr[t17] = t21
+41: t22 = 1
+42: t23 = j + t22
+43: t24 = t23
+44: t24 = t24 * 4
+45: arr[t24] = temp
+46: GOTO 15
+47: GOTO 15
+48: GOTO 5
+49: LABEL main: 
+50: t25 = 20
+51: PARAM $.LC0
+52: t26 = CALL prints, 1
+53: t27 = & ep
+54: PARAM t27
+55: t28 = CALL readi, 1
+56: n = t28
+57: PARAM $.LC1
+58: t29 = CALL prints, 1
+59: PARAM n
+60: t30 = CALL printi, 1
+61: PARAM $.LC2
+62: t31 = CALL prints, 1
+63: PARAM $.LC3
+64: t32 = CALL prints, 1
+65: t33 = 0
+66: i = t33
+67: IF i < n GOTO 73
+68: GOTO 81
+69: t35 = 1
+70: t34 = i
+71: i = i + t35
+72: GOTO 67
+73: t36 = & arr
+74: t37 = i
+75: t37 = t37 * 4
+76: t38 = & ep
+77: PARAM t38
+78: t39 = CALL readi, 1
+79: t36[t37] = t39
+80: GOTO 69
+81: t40 = & arr
+82: PARAM n
+83: PARAM t40
+84: t41 = CALL sort, 2
+85: PARAM $.LC4
+86: t42 = CALL prints, 1
+87: t43 = 0
+88: i = t43
+89: IF i < n GOTO 95
+90: GOTO 104
+91: t45 = 1
+92: t44 = i
+93: i = i + t45
+94: GOTO 89
+95: t46 = & arr
+96: t47 = i
+97: t47 = t47 * 4
+98: t48 = t46[t47]
+99: PARAM t48
+100: t49 = CALL printi, 1
+101: PARAM $.LC5
+102: t50 = CALL prints, 1
+103: GOTO 91
+104: PARAM $.LC2
+105: t51 = CALL prints, 1
+106: t52 = 0
+107: RETURN t52

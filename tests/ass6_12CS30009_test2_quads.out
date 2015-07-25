@@ -1,0 +1,103 @@
+0: LABEL main: 
+1: t1 = 10
+2: t2 = 2
+3: b = t2
+4: t3 = 3
+5: c = t3
+6: t4 = & a
+7: t5 = 3
+8: t6 = t5
+9: t6 = t6 * 4
+10: t7 = 100
+11: t4[t6] = t7
+12: PARAM $.LC0
+13: t8 = CALL prints, 1
+14: t9 = & a
+15: t10 = 3
+16: t11 = t10
+17: t11 = t11 * 4
+18: t12 = t9[t11]
+19: PARAM t12
+20: t13 = CALL printi, 1
+21: PARAM $.LC1
+22: t14 = CALL prints, 1
+23: t15 = & a
+24: t16 = 3
+25: t17 = t16
+26: t17 = t17 * 4
+27: t18 = t15[t17]
+28: c = t18
+29: PARAM $.LC2
+30: t19 = CALL prints, 1
+31: PARAM c
+32: t20 = CALL printi, 1
+33: PARAM $.LC1
+34: t21 = CALL prints, 1
+35: t22 = & a
+36: t23 = 4
+37: t24 = t23
+38: t24 = t24 * 4
+39: t25 = & a
+40: t26 = 3
+41: t27 = t26
+42: t27 = t27 * 4
+43: t28 = t25[t27]
+44: t29 = 10
+45: t30 = t28 + t29
+46: t22[t24] = t30
+47: PARAM $.LC4
+48: t31 = CALL prints, 1
+49: t32 = & a
+50: t33 = 4
+51: t34 = t33
+52: t34 = t34 * 4
+53: t35 = t32[t34]
+54: PARAM t35
+55: t36 = CALL printi, 1
+56: PARAM $.LC1
+57: t37 = CALL prints, 1
+58: t38 = & b
+59: p = t38
+60: t39 = 0
+61: t39 = t39 * 4
+62: t40 = 10
+63: p[t39] = t40
+64: PARAM $.LC6
+65: t41 = CALL prints, 1
+66: PARAM b
+67: t42 = CALL printi, 1
+68: PARAM $.LC1
+69: t43 = CALL prints, 1
+70: t44 = 0
+71: t44 = t44 * 4
+72: t45 = p[t44]
+73: c = t45
+74: PARAM $.LC2
+75: t46 = CALL prints, 1
+76: PARAM c
+77: t47 = CALL printi, 1
+78: PARAM $.LC1
+79: t48 = CALL prints, 1
+80: t49 = & a
+81: t50 = 3
+82: t51 = t50
+83: t51 = t51 * 4
+84: t52 = t49 + t51
+85: p = t52
+86: t53 = 0
+87: t53 = t53 * 4
+88: t54 = 10
+89: p[t53] = t54
+90: PARAM $.LC0
+91: t55 = CALL prints, 1
+92: t56 = & a
+93: t57 = 3
+94: t58 = t57
+95: t58 = t58 * 4
+96: t59 = t56[t58]
+97: PARAM t59
+98: t60 = CALL printi, 1
+99: PARAM $.LC1
+100: t61 = CALL prints, 1
+101: t62 = 0
+102: RETURN t62
