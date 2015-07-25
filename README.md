@@ -9,12 +9,12 @@ Compile using tinyC
   chmod +x compile.sh
   chmod +x test.sh
   ```
-* To compile
+* Compile
   
   ```
   ./compile.sh filename.c
   ```
-* To run
+* Run
 
   ```
   ./filename.out
@@ -24,4 +24,4 @@ Run test files
 --------------
 To run all test files provided in test folder,
 
-  ``` ./test.sh ```
+> ``` ./test.sh ```
